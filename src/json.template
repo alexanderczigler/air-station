@@ -2,6 +2,7 @@
 #jump 1#
 #raw#
 {
+  "Station": "backliden",
   "StationId": "4129017d-0156-4a91-87b8-e464f93a5c1b",
   "Date": "#idx "%m/%d/%Y %H:%M"#",
   "Time": " #idx "%H:%M %Z"# ",

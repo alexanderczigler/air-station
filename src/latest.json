@@ -1,0 +1,14 @@
+{
+  "Station": "backliden",
+  "StationId": "4129017d-0156-4a91-87b8-e464f93a5c1b",
+  "Date": "04/05/2015 10:15",
+  "Time": " 10:15 CEST ",
+  "TempOut": 5.1,
+  "FeelsLike": 2.9,
+  "HumidityOut": 62,
+  "WindDirection": " E ",
+  "WindAvg": 0,
+  "WindGust": 0,
+  "Rain": 550.5,
+  "AbsPressure": 1007.2
+}

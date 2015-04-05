@@ -14,3 +14,4 @@ LOGDATA=`cat $log`
 sudo python -m pywws.Template $WORKDIR/data/ $WORKDIR/json.template $WORKDIR/latest.json
 JSONDATA=`cat $WORKDIR/latest.json`
 
+nodejs index.js
