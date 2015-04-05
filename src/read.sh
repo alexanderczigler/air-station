@@ -9,4 +9,4 @@ fi
 sudo pywws-hourly.py -v $WORKDIR/data > $WORKDIR/read.log 2>&1
 sudo python -m pywws.Template $WORKDIR/data/ $WORKDIR/json.template $WORKDIR/latest.json
 
-node index.js
+node $WORKDIR/index.js
