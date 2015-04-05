@@ -7,7 +7,7 @@ var s3 = new AWS.S3();
 
 module.exports = {
   storeReading: function(reading, successCallback, errorCallback) {
-    reading.id = this.generateNewKey(reading.station);
+    reading.id = this.generateNewKey(reading.Station);
     var params = {
       Bucket: config.s3.bucket,
       Key: reading.id,
