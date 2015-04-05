@@ -3,7 +3,8 @@
 #raw#
 {
   "station": "backliden",
-  "timestamp": "#idx "%Y-%m-%d %H:%M %Z"#",
+  "date": "#idx "%m/%d/%Y %H:%M"#",
+  "time": " #idx "%H:%M %Z"# ",
   "tempOut": #temp_out "%.1f"#,
   "feelsLike": #calc "apparent_temp(data['temp_out'], data['hum_out'], data['wind_ave'])" "%.1f"#,
   "humidityOut": #hum_out "%d"#,
