@@ -1,0 +1,22 @@
+{
+  "name": "air-station",
+  "version": "0.0.1",
+  "description": "Air weather station",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexanderczigler/air-station.git"
+  },
+  "author": "code@ilix.se",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexanderczigler/air-station/issues"
+  },
+  "homepage": "https://github.com/alexanderczigler/air-station",
+  "dependencies": {
+    "aws-sdk": "^2.1.21"
+  }
+}
