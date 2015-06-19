@@ -9,4 +9,4 @@ var onError = function (error) {
   console.log('Something went wrong :-(', error);
 };
 
-s3client.storeReading(latest, onSuccess, onError);
+s3client.storeReading(latest, 'new/', onSuccess, onError);

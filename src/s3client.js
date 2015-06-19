@@ -6,12 +6,12 @@ AWS.config.update({accessKeyId: config.aws.accessKeyId, secretAccessKey: config.
 var s3 = new AWS.S3();
 
 module.exports = {
-  storeReading: function(reading, successCallback, errorCallback) {
+  storeReading: function(reading, path, successCallback, errorCallback) {
     reading.id = this.generateNewKey(reading.station);
     reading.ts = +new Date;
     var params = {
       Bucket: config.s3.bucket,
-      Key: reading.id,
+      Key: path . reading.id,
       ACL: 'public-read',
       Body: JSON.stringify(reading),
       ContentType: 'application/json',
