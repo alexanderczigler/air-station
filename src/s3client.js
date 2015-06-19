@@ -11,7 +11,7 @@ module.exports = {
     reading.ts = +new Date;
     var params = {
       Bucket: config.s3.bucket,
-      Key: path . reading.id,
+      Key: path + reading.id,
       ACL: 'public-read',
       Body: JSON.stringify(reading),
       ContentType: 'application/json',
